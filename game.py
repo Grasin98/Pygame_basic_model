@@ -15,14 +15,14 @@ display_width = 800
 display_height = 600
 
 gameDisplay = pygame.display.set_mode((display_width,display_height))
-pygame.display.set_caption('A bit Racey')
+pygame.display.set_caption('Car_Env')
 
 black = (0,0,0)
 white = (255,255,255)
 
 clock = pygame.time.Clock()
 crashed = False
-carImg = pygame.image.load('C:/Users/NISARG/Pictures/racecar.png')
+carImg = pygame.image.load('C:/Users/NISARG/Pictures/car.jpg')
 
 def car(x,y):
     gameDisplay.blit(carImg, (x,y))
